@@ -1,0 +1,12 @@
+# Ignorar arquivos compilados do Java
+*.class
+
+# Ignorar pastas de IDEs (Eclipse, VS Code, IntelliJ)
+.settings/
+.vscode/
+.idea/
+bin/
+build/
+out/
+*.classpath
+*.project
