@@ -50,4 +50,11 @@ Como o projeto utiliza pacotes (`package`), é necessário compilar e rodar a pa
     ```bash
     java Aplicacao.Jogo
     ```
+    ## Preview
+    <img width="576" height="149" alt="image" src="https://github.com/user-attachments/assets/13133ca0-c836-418c-ad21-666e0291a959" />
+    <img width="577" height="177" alt="image" src="https://github.com/user-attachments/assets/9dd74833-3557-4344-8d3a-a774968ef486" />
+    <img width="576" height="116" alt="image" src="https://github.com/user-attachments/assets/3f8ab8c4-bce3-446c-9829-8aa518c193ed" />
+
+
+
 Desenvolvido para fins de estudo em Java. ☕
