@@ -19,6 +19,18 @@
     * **Abstração:** Uso de classe abstrata `Personagem` para definir o template de todas as entidades.
     * **Interfaces:** Uso da interface `Curavel` para desacoplar a lógica de recuperação de vida.
     * **Encapsulamento:** Atributos protegidos (`protected`) e privados com acesso via Getters/Setters.
+ 
+## 🧩 Estrutura do Projeto
+O código segue a organização por pacotes:
+
+* `Aplicacao`
+    * `Jogo.java`: Classe principal contendo o *Game Loop*, menus e lógica de combate e geração aleatória de monstros.
+* `entidades`
+    * `Personagem.java`: Classe base abstrata com template para todos os tipos de personagem que herdam atributos da classe, metodo abstrato para atacar e lógica de receberDano.
+    * `Heroi.java`: Lógica do jogador, incluindo sistema de XP, níveis e cura.
+    * `Monstro.java`: atributos simples dos inimigos e logica de ataque com base em sorte.
+    * `Curavel.java`: Interface para comportamentos de cura.
+---
 
 ## 🛠️ Como Executar
 Como o projeto utiliza pacotes (`package`), é necessário compilar e rodar a partir da pasta raiz (`src`):
